@@ -1,0 +1,12 @@
+logs
+*.log
+twitter-api-key.yml
+static/components
+static/bower_components/
+logs/*
+!.gitkeep
+*.pyc
+node_modules/
+tmp
+.DS_Store
+.idea

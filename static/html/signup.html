@@ -1,0 +1,28 @@
+
+
+<!-- Sign-up form -->
+<div class="container under-nav-login-box" ng-controller="SignupController">
+	<div class="sign-in-box">
+	<form class="form-signin" name="newuser" method="POST">
+		<h2 class="form-signin-heading">SIGN UP</h2>
+
+		<p><label>FIRST NAME: </label>
+		<input type="text" name="first_name" class="form-control form-field" ng-model="user.first_name" autofocus /></p>
+
+		<p><label>LAST NAME: </label>
+		<input type="text" name="last-name" class="form-control form-field" ng-model="user.last_name" /></p>
+
+		<p><label>EMAIL ADDRESS: </label>
+		<input type="email" name="email" class="form-control form-field" ng-model="user.email" /></p>
+
+		<p><label>PASSWORD: </label>
+		<input type="password" name="password" class="form-control form-field" ng-model="user.password" /></p>
+
+		<p><label>RETYPE PASSWORD: </label>
+		<input type="password" name="password" class="form-control form-field" ng-model="user.password" /></p><br><br>
+
+		<button class="button special" ng-click="addUser(user)">SIGN UP</button>
+	</form>
+
+	</div>
+</div>

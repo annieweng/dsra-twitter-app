@@ -1,0 +1,24 @@
+
+<!-- Log-in form -->
+<div class="container under-nav-login-box" ng-controller="LoginController">
+
+	<div class="sign-in-box">
+	<form class="form-signin" name="logmein" method="POST">
+		<h2 class="form-signin-heading">PLEASE LOG IN</h2>
+
+		<p><label>EMAIL: </label>
+		<input type="email" name="email" class="form-control form-field" ng-model="user.email"  autofocus /></p>
+
+		<p><label>PASSWORD: </label>
+		<input type="password" name="password" class="form-control form-field" ng-model="user.password" /></p><br>
+		
+
+		<p style="text-align: center">Don't have an account? <a href="/#/signup" class="hover-link">Sign up here.</a></p>
+
+		<button class="button special" ng-click="loginUser(user)">LOG IN</button>
+	</form>
+ 
+	</div>
+	
+
+</div>
