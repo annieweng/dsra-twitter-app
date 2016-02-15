@@ -14,11 +14,11 @@ its package manager (npm) installed.  You can get them from [http://nodejs.org/]
 
 ### Clone dsra-twitter-app
 
-Clone the dsra-twitter-app repository using [git][git]:
+Clone the twitter-app repository using [git][git]:
 
 ```
 git clone https://github.com/annieweng/dsra-twitter-app.git
-cd dsra-twitter-app
+cd twitter-app
 ```
 
 #add twitter api keys
@@ -58,22 +58,6 @@ Now browse to the app at `http://localhost:5000`.
 
 
 
-## Directory Layout
-
-```
-app/                    --> all of the source files for the application
-  app.css               --> default stylesheet
-  components/           --> all app specific modules
-    version/              --> version related components
-      version.js                 --> version module declaration and basic "version" value service
-      version_test.js            --> "version" value service tests
-      version-directive.js       --> custom directive that returns the current app version
-      version-directive_test.js  --> version directive tests
-      interpolate-filter.js      --> custom interpolation filter
-      interpolate-filter_test.js --> interpolate filter tests
-  app.js                --> main application module
-  index.html            --> app layout file (the main html template file of the app)
-  index-async.html      --> just like index.html, but loads js files asynchronously
 
 ## Updating Angular dependencies
 
