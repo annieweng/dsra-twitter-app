@@ -1,6 +1,6 @@
 logs
 *.log
-twitter-api-key.yml
+twitter-api-keys.yml
 static/components
 static/bower_components/
 logs/*
